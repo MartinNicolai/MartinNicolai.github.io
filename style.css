@@ -1,0 +1,107 @@
+.menu:link {
+    color: #d3d3d5;
+}
+
+.menu:visited {
+    color: #d3d3d5;
+}
+
+.menu:hover {
+    color: grey;
+}
+
+.menu:active {
+    color: #d3d3d5;
+} 
+
+.menu {
+	text-decoration: none
+}
+
+a:link {
+    color: #9d7c5d;
+}
+
+a:visited {
+    color: #ffdead;
+}
+
+a:hover {
+    color: #d3d3d5;
+}
+
+a:active {
+    color: #9d7c5d;
+} 
+
+a {
+	text-decoration: none
+}
+
+.dropbtn {
+    color: #d3d3d5;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: grey;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #27231d;
+    min-width: 400px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #d3d3d5;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown a:hover {color: grey}
+
+.show {display:block;}
+
+body {
+    background-color: #1d2127;
+}
+h1 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: d2cec4;
+	font-size: 20px;
+}
+p {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: #86888b;
+	font-size: 20px;
+}
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+	text-align: center;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: white;
+	font-size: 16px;
+}
+table {
+	width:1100px
+}
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113361429-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113361429-1');
+</script>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+ <link rel="stylesheet" href="../style.css">
+ 
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+ 
+</head>
+
+<body>
+
+<center>
+
+<br><br>
+
+ <div>
+  <table>
+  
+   <tr>
+    <td><a href="../index.html" class="menu">Home</a></td>
+    <td><a href="../intro.html" class="menu">Introduction</a></td> 
+    <td><a href="../research.html" class="menu">Area of Research</a></td>
+	<td><a href="../list.html" class="menu">List of Officers</a></td>
+	<td>
+	
+	
+
+<div class="dropdown">
+ <a onclick="myFunction()" class="dropbtn">Articles <img src="../img/arrow.png" style="width:18px;height:18px;"></a>
+  <div id="myDropdown" class="dropdown-content" align="left">
+    <a href="../articles/courage.html">A Different Kind of Courage</a>
+    <a href="../articles/climate.html">A Changing Climate (1755-1783)</a>
+    <a href="../articles/subjects.html">Subjects and Citizens</a>
+	<a href="../articles/economic.html">Trade, Colonies, and State Power</a>
+	<a href="../articles/savage.html">Rejecting the 'Noble Savage'</a>
+	<a href="../articles/philosophes.html">Bougainville, Crèvecoeur, and Chastellux</a>
+	<a href="../articles/france.html">French Army</a>
+	<a href="../articles/bougainville.html">Louis-Antoine de Bougainville, Comte de Bougainville</a>
+	<a href="../articles/fort.html">Fort Lévis (New York)</a>
+	<a href="../articles/sainte.html">Battle of Sainte-Thérèse</a>
+	<a href="../articles/levis.html">François-Gaston de Lévis, Duc de Lévis (1719-1787)</a>
+	<a href="../articles/celoron.html">Pierre-Joseph Céloron de Blainville</a>
+  </div>
+</div>
+
+	</td>
+	<td><a href="../image.html" class="menu">Image Gallery</a></td>
+	<td><a href="../links.html" class="menu">Additional Links</a></td>
+	<td><a href="../author.html" class="menu">About the Author</a></td>
+   </tr>
+   
+  </table>
+ </div>
+ 
+<br><br><br>
+
+ <div class="content">
+  <table style="width:500px">
+  
+   <tr>
+    <td>
+	 <p>
+	  Battle of Sainte-Thérèse
+     </p>
+	</td>
+   </tr>
+  
+   <tr>
+    <td>
+     <iframe src="../pdf/sainte.pdf" width="1100px" height="900px">
+      Oops! Sorry, this browser does not support PDFs. Please download the PDF to view it: <a href="../pdf/sainte.pdf">Download PDF</a>
+     </iframe>
+    </td>
+   </tr>
+   
+  </table>
+ </div>
+ 
+</center>
+
+</body>
+
+</html>

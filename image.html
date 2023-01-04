@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113361429-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113361429-1');
+</script>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" type="image/ico" href="img/favicon.ico">
+ <title>Image Gallery</title>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+ 
+</head>
+
+<body>
+
+<center>
+
+<br><br>
+
+ <div>
+  <table>
+  
+   <tr>
+    <td><a href="index.html" class="menu">Home</a></td>
+    <td><a href="intro.html" class="menu">Introduction</a></td> 
+    <td><a href="research.html" class="menu">Area of Research</a></td>
+	<td><a href="list.html" class="menu">List of Officers</a></td>
+	<td>
+	
+	
+
+<div class="dropdown">
+ <a onclick="myFunction()" class="dropbtn">Articles <img src="img/arrow.png" style="width:18px;height:18px;"></a>
+  <div id="myDropdown" class="dropdown-content" align="left">
+    <a href="articles/courage.html">A Different Kind of Courage</a>
+    <a href="articles/climate.html">A Changing Climate (1755-1783)</a>
+    <a href="articles/subjects.html">Subjects and Citizens</a>
+	<a href="articles/economic.html">Trade, Colonies, and State Power</a>
+	<a href="articles/savage.html">Rejecting the 'Noble Savage'</a>
+	<a href="articles/philosophes.html">Bougainville, Crèvecoeur, and Chastellux</a>
+	<a href="articles/france.html">French Army</a>
+	<a href="articles/bougainville.html">Louis-Antoine de Bougainville, Comte de Bougainville</a>
+	<a href="articles/fort.html">Fort Lévis (New York)</a>
+	<a href="articles/sainte.html">Battle of Sainte-Thérèse</a>
+	<a href="articles/levis.html">François-Gaston de Lévis, Duc de Lévis (1719-1787)</a>
+	<a href="articles/celoron.html">Pierre-Joseph Céloron de Blainville</a>
+  </div>
+</div>
+
+	</td>
+	<td><a href="image.html" class="menu">Image Gallery</a></td>
+	<td><a href="links.html" class="menu">Additional Links</a></td>
+	<td><a href="author.html" class="menu">About the Author</a></td>
+   </tr>
+   
+  </table>
+ </div>
+ 
+ <br><br><br><br>
+ 
+ <div class="content">
+  <table width="1100px" style="text-align:left;border:0px solid #dddddd;">
+  
+   <tr>
+	<td style="vertical-align:top">
+	<img src="img/gallery/1.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>Aboriginals, French <i>Compagnies franches de la Marine</i>, and Canadians Against the British and Americans in the Battle of the Monongahela, 1755<br><br><i>The Shooting of General Braddock at Fort Duquesne, Pittsburgh, 1755</i> by Edwin Willard Deming</p><br><br>
+	<img src="img/gallery/3.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>Montcalm After the Battle of Carillon, 1758<br><br><i>The Victory of Montcalm’s Troops at Carillon</i> by Henry Alexander Ogden</p><br><br>
+	<img src="img/gallery/5.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>French and Canadian Troops Advancing in the Battle of the Plains of Abraham, 1759<br><br><i>Canada: A People’s History</i>, CBC</p><br><br>
+	<img src="img/gallery/7.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>Colonel and Naval Captain Louis-Antoine de Bougainville<br><br><i>Louis-Antoine, Comte de Bougainville</i> by Jean-Pierre Franque</p><br><br>
+	<img src="img/gallery/9.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>The French and British Fleets in the Battle of the Chesapeake<br><br><i>Battle of the Virginia Capes</i> by v. Sveg</p><br><br>
+    </td>
+	<td><p style="color:#1d2127">....</p></td>
+	<td style="vertical-align:top">
+	<img src="img/gallery/2.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>Montcalm and His Aboriginal Allies at Fort Carillon, 1758<br><br><i>Council With the Allies</i> by Robert Griffing</p><br><br>
+	<img src="img/gallery/4.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>French Troops Defending the Fortress of Louisbourg, 1758<br><br><i>Canada: A People’s History</i>, CBC</p><br><br>
+	<img src="img/gallery/6.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>French Troops Burning Their Colours Before Surrendering at Montréal, 1760<br><br><i>Canada: A People’s History</i>, CBC</p><br><br>
+	<img src="img/gallery/8.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>French Volunteer Major General the Marquis de La Fayette<br><br><i>Portrait of the Marquis de La Fayette as a Lieutenant General, 1791</i> by Joseph-Désiré Court</p><br><br>
+	<img src="img/gallery/10.jpg" style="width:550px">
+	<p style="font-size:16px" align=left>Rochambeau and Washington at the Siege of Yorktown<br><br><i>Siège de Yorktown</i> by Auguste Couder</p><br><br>
+	</td>
+   </tr>
+   
+  </table>
+  <p style="font-size:12px">
+   Website designed, coded, and created by <b>Julian Nicolai</b>
+  </p>
+ </div>
+ 
+</center>
+
+</body>
+
+</html>
